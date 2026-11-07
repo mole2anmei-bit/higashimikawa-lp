@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>魅力再発見！東三河編｜ゆる旅、はじめよう。</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ <header id="header">
+  <h1 class="header-logo">
+    <a href="#">
+      <img src="images/logo.svg" alt="魅力再発見!東三河編">
+    </a>
+  </h1> 
+    <!-- PC用のメニュー -->
+    <nav class="gnav-pc-wrap">
+      <ul class="gnav-pc">
+        <li><a href="#about">東三河の特徴</a></li>
+        <li><a href="#spots">過ごし方</a></li>
+        <li><a href="#course">モデルコース</a></li>
+        <li><a href="#access">アクセス</a></li>
+      </ul>
+    </nav>
+
+    <!-- SP用のメニュー -->
+      <div id="menu-button">
+        <div class="menu-button-inner">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    <!-- SP用のメニューの中身 -->
+      <nav class="gnav-sp-wrap" >
+        <ul class="gnav-sp">
+          <li><a href="#about">東三河の特徴</a></li>
+          <li><a href="#spots">過ごし方</a></li>
+          <li><a href="#course">モデルコース</a></li>
+          <li><a href="#access">アクセス</a></li>
+        </ul>
+      </nav> 
+</header>
+  
+
+<!-- ===== Section1: FV ===== -->
+<section id="fv">
+  <div class="fv-collage">
+    <picture>
+      <source media="(max-width: 480px)" srcset="images/fv/FV-bg-sp2.jpg">
+      <img src="images/fv/FV-bg-pc.jpg" alt="メロン、豊川稲荷、イルミネーション、路面電車など、東三河の風景">
+    </picture>
+    <div class="fv-overlay">
+      <div class="fv-circle"></div>
+      <div class="fv-text">
+        <div class="fv-title mincho"><span>ゆる旅、</span><span>はじめよう</span></div>
+      </div>
+    </div>
+    <div class="fv-caption">
+      <p class="fv-sub mincho">愛知県、東三河で見つけるわたし時間</p>
+    </div>
+  </div>
+  <div class="fv-cta-wrap">
+    <a href="#spots"><button class="btn">東三河の過ごし方を見る</button></a>
+  </div>
+  
+  <!--dividerを入れる-->
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 140" preserveAspectRatio="none"><path fill="var(--bg)" d="M0,60 C240,150 480,-10 720,55 C960,120 1200,0 1440,65 L1440,140 L0,140 Z"/></svg>
+  </div>
+
+</section>
+
+<!-- ===== Section2: About + Map ===== -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">ABOUT HIGASHI-MIKAWA</div>
+      <h2 class="title">東三河って、知ってる？</h2>
+      <p class="medium">愛知県の東側に広がる、海・山・温泉がぎゅっと詰まったエリア。<br>名古屋から少し足を延ばすだけで、こんな景色に出会える。</p>
+    </div>
+
+    <div class="area-map">
+      
+      <div class="area-map-img">
+        <picture> 
+          <source media="(min-width: 900px)" srcset="images/map/higashimikawa-map-pc@2x.png">
+          <img src="images/map/higashimikawa-map-sp.png" alt="東三河エリアマップ（蒲郡・田原・豊橋・豊川・新城）">
+        </picture>
+      </div>
+      <div class="area-card pos-gamagori">
+        <div class="thumb">
+          <img src="images/areas/gamagori.jpg" alt="蒲郡">
+        </div>
+        <div class="info">
+          <div class="name">蒲郡</div>
+          <p>竹島を望む、海辺の温泉地</p>
+        </div>
+      </div>
+      <div class="area-card pos-tahara">
+        <div class="thumb">
+          <img src="images/areas/tahara.jpg" alt="田原">
+        </div>
+        <div class="info">
+          <div class="name">田原</div>
+          <p>菜の花と海岸線が広がる、のどかな半島</p>
+        </div>
+      </div> 
+      <div class="area-card pos-toyohashi">
+        <div class="thumb"><img src="images/areas/toyohashi.jpg" alt="豊橋"></div>
+        <div class="info">
+          <div class="name">豊橋</div>
+          <p>路面電車が走る、どこか懐かしい街</p></div>
+      </div>
+      <div class="area-card pos-shinshiro">
+        <div class="thumb"><img src="images/areas/shinshiro.jpg" alt="新城"></div>
+        <div class="info">
+          <div class="name">新城</div>
+          <p>山と川に抱かれた、自然豊かな里</p>
+        </div>
+      </div>
+      <div class="area-card pos-toyokawa">
+        <div class="thumb">
+          <img src="images/areas/toyokawa.jpg" alt="豊川"></div>
+        <div class="info">
+          <div class="name">豊川</div>
+          <p>日本三大稲荷が見守る、祈りの町</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 140" preserveAspectRatio="none">
+    <path fill="var(--pink)" d="M0,60 C240,150 480,-10 720,55 C960,120 1200,0 1440,65 L1440,140 L0,140 Z"></path></svg>
+  </div>
+  
+</section>
+
+<!-- ===== Section3: Spots ===== -->
+<section id="spots">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">STAY / PLAY / EAT / SEE</div>
+      <h2 class="title">東三河の、ゆる旅スタイル。</h2>
+      <p class="medium">泊まる、遊ぶ、食べる、見る。あなたに合う楽しみ方を見つけて。</p>
+    </div>
+
+    <div class="cat-nav">
+      <a href="#cat-stay">泊まる</a>
+      <a href="#cat-play">遊ぶ</a>
+      <a href="#cat-eat">食べる</a>
+      <a href="#cat-see">見る</a>
+    </div>
+
+    <div class="cat-block" id="cat-stay">
+      <div class="cat-label"><i class="fa-solid fa-bed"></i>泊まる</div>
+      <div class="spot-grid">
+        <div class="spot-card">
+          <div class="thumb">
+            <img src="images/spots/nishiura-onsen.jpg" alt="西浦温泉">
+          </div>
+          <div class="info">
+            <div class="area-tag">蒲郡</div>
+            <h4>三河湾を望む、ひと息つける温泉地</h4>
+            <p>西浦温泉。波音を聞きながら、何もしない贅沢を。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/yuya-onsen.jpg" alt="湯谷温泉"></div><div class="info"><div class="area-tag">新城</div><h4>宇連川のせせらぎと、源泉かけ流し</h4><p>湯谷温泉。奥三河の自然に包まれて、湯に浸かるひとときを。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/gamagori-classic-hotel.jpg" alt="蒲郡クラシックホテル"></div><div class="info"><div class="area-tag">蒲郡</div><h4>クラシカルな空間で過ごす、特別な一泊</h4><p>蒲郡クラシックホテル。非日常の雰囲気に、心もゆるむ。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/irago-inn.jpg" alt="伊良湖の宿"></div><div class="info"><div class="area-tag">田原</div><h4>海沿いのロケーションで迎える朝</h4><p>伊良湖の宿。波の音で目覚める、ちょっと贅沢な朝。</p></div></div>
+      </div>
+    </div>
+
+    <div class="cat-block" id="cat-play">
+      <div class="cat-label">
+        <i class="fa-solid fa-umbrella-beach">
+        </i>遊ぶ</div>
+      <div class="spot-grid">
+        <div class="spot-card">
+          <div class="thumb">
+            <img src="images/spots/takeshima-aquarium.jpg" alt="竹島・竹島水族館">
+          </div>
+          <div class="info">
+            <div class="area-tag">蒲郡</div>
+            <h4>散策感覚で回れる、話題のスポット</h4>
+            <p>竹島・竹島水族館。駅から徒歩圏、気軽に楽しめる島時間。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/koijigahama.jpg" alt="恋路ヶ浜"></div><div class="info"><div class="area-tag">田原</div><h4>海岸線を歩く、癒しの散歩道</h4><p>恋路ヶ浜。波打ち際をのんびり歩くだけで満たされる。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/basecamp-kiti.jpg" alt="BASE CAMP KITI"></div><div class="info"><div class="area-tag">豊橋</div><h4>サウナもBBQも楽しめるリゾート空間</h4><p>BASE CAMP KITI。自然の中で、いつもと違う一日を。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/lagunatenbosu.jpg" alt="ラグーナテンボス"></div><div class="info"><div class="area-tag">蒲郡</div><h4>一日中楽しめる、海辺のテーマパーク</h4><p>ラグーナテンボス。はしゃぐ日があってもいい。</p></div></div>
+      </div>
+    </div>
+
+    <div class="cat-block" id="cat-eat">
+      <div class="cat-label"><i class="fa-solid fa-utensils"></i>食べる</div>
+      <div class="spot-grid">
+        <div class="spot-card"><div class="thumb"><img src="images/spots/toyohashi-curry-udon.jpg" alt="豊橋カレーうどん"></div><div class="info"><div class="area-tag">豊橋</div><h4>とろろとカレーの、ご当地名物うどん</h4><p>豊橋カレーうどん。一度は食べたい、豊橋のソウルフード。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/kaisendon.jpg" alt="三河湾の海鮮丼"></div><div class="info"><div class="area-tag">蒲郡・田原</div><h4>獲れたての魚介を味わうランチ</h4><p>三河湾の海鮮丼。海の幸を、贅沢にひと皿で。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/inarizushi.jpg" alt="稲荷ずし"></div><div class="info"><div class="area-tag">豊川</div><h4>参拝のあとに味わう、名物いなり</h4><p>稲荷ずし。食べ歩きも、ゆる旅の楽しみのひとつ。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/fruit-picking.jpg" alt="フルーツ狩り"></div><div class="info"><div class="area-tag">田原・蒲郡</div><h4>いちご、メロン、ブルーベリー。旬のフルーツ狩り</h4><p>季節ごとに変わる、東三河のフルーツ狩り。</p></div></div>
+      </div>
+    </div>
+
+    <div class="cat-block" id="cat-see">
+      <div class="cat-label"><i class="fa-solid fa-binoculars"></i>見る</div>
+      <div class="spot-grid">
+        <div class="spot-card"><div class="thumb"><img src="images/spots/toyokawa-inari.jpg" alt="豊川稲荷"></div><div class="info"><div class="area-tag">豊川</div><h4>日本三大稲荷を、静かに参拝</h4><p>豊川稲荷。参道のお店めぐりも、あわせて楽しんで。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/nanohana-garden.jpg" alt="伊良湖菜の花ガーデン"></div><div class="info"><div class="area-tag">田原</div><h4>一面に広がる、春の菜の花畑</h4><p>伊良湖菜の花ガーデン。200万本の黄色に、心が晴れる。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/senmaida.jpg" alt="四谷の千枚田"></div><div class="info"><div class="area-tag">新城</div><h4>棚田が織りなす、里山の原風景</h4><p>四谷の千枚田。昔ながらの景色に、時間を忘れる。</p></div></div>
+        <div class="spot-card"><div class="thumb"><img src="images/spots/sakurabuchi-park.jpg" alt="桜淵公園"></div><div class="info"><div class="area-tag">新城</div><h4>江戸時代から続く、桜の名所</h4><p>桜淵公園。春だけの特別な景色を、ゆっくりと。</p></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 140" preserveAspectRatio="none"><path fill="var(--bg)" d="M0,60 C240,150 480,-10 720,55 C960,120 1200,0 1440,65 L1440,140 L0,140 Z"/></svg>
+  </div>
+</section>
+
+<!-- ===== Section4: Model course ===== -->
+<section id="course">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">MODEL COURSE</div>
+      <h2 class="title">こんな1日、いかが？</h2>
+      <p class="medium">日帰りでも、一泊でも。あなたのペースで巡る東三河。</p>
+    </div>
+
+    <div class="course-grid">
+      <div class="course-card">
+        <div class="ch">
+          <i class="fa-solid fa-sun"></i><span>日帰りプラン</span></div>
+        <div class="course-media" 
+            style="top:290px; right:10px; width:150px; height:150px;">
+          <img src="images/course/aderanonanataki.jpg" alt="阿寺の七滝">
+        </div>
+        <div class="course-media" 
+            style="top:420px; right:10px; width:150px; height:150px;">
+          <img src="images/course/two-women.png" alt="指さす女性2人">
+        </div>
+        
+        <div class="timeline">
+          <div class="t-item"><div class="t-time">9:30</div><div class="t-desc">豊川稲荷を参拝</div></div>
+          <div class="t-item"><div class="t-time">10:00</div><div class="t-desc">門前町で食べ歩き（稲荷ずしなど）</div></div>
+          <div class="t-item"><div class="t-time">11:30</div><div class="t-desc">新城へ移動、四谷の千枚田を眺める</div></div>
+          <div class="t-item"><div class="t-time">13:00</div><div class="t-desc">桜淵公園を散策</div><div class="t-note">春は桜のトンネルが見頃</div></div>
+          <div class="t-item"><div class="t-time">14:30</div><div class="t-desc">阿寺の七滝で涼む</div><div class="t-note">夏場のマイナスイオンが心地よい</div></div>
+          <div class="t-item"><div class="t-time">15:30</div><div class="t-desc">道の駅もっくるでお土産</div></div>
+          <div class="t-item"><div class="t-time">16:30</div><div class="t-desc">帰路へ</div></div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="ch">
+          <i class="fa-solid fa-moon"></i><span>一泊プラン</span></div>
+        <div class="course-media" style="top:56px; right:20px; width:160px; height:160px;">
+          <img src="images/course/yoshida-castle.jpg" alt="吉田城">
+        </div>
+        
+        <div class="day-label">Day1</div>
+        <div class="timeline">
+          <div class="t-item"><div class="t-time">10:00</div><div class="t-desc">豊橋市電で豊橋公園へ（吉田城・公会堂）</div></div>
+          <div class="t-item"><div class="t-time">12:00</div><div class="t-desc">駅周辺で豊橋カレーうどんランチ</div></div>
+          <div class="t-item"><div class="t-time">13:30</div><div class="t-desc">蒲郡へ移動、竹島水族館</div></div>
+          <div class="t-item"><div class="t-time">16:00</div><div class="t-desc">西浦温泉に宿泊</div></div>
+        </div>
+        <div class="day-label">Day2</div>
+        
+        <div class="course-media" style="top:685px; right:22px; width:150px; height:150px;">
+          <img src="images/course/mekkun-house.jpg" alt="">
+        </div>
+        
+        <div class="timeline">
+          <div class="t-item"><div class="t-time">9:00</div><div class="t-desc">田原へ移動、海鮮丼で朝ランチ</div></div>
+          <div class="t-item"><div class="t-time">11:00</div><div class="t-desc">伊良湖菜の花ガーデン</div></div>
+          <div class="t-item"><div class="t-time">12:30</div><div class="t-desc">フルーツ狩り（いちご・メロン・ブルーベリーなど）</div></div>
+          <div class="t-item"><div class="t-time">14:00</div><div class="t-desc">恋路ヶ浜を散策</div></div>
+          <div class="t-item"><div class="t-time">15:00</div><div class="t-desc">道の駅でお土産</div></div>
+          <div class="t-item"><div class="t-time">16:00</div><div class="t-desc">帰路へ</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 140" preserveAspectRatio="none"><path fill="var(--pink)" d="M0,60 C240,150 480,-10 720,55 C960,120 1200,0 1440,65 L1440,140 L0,140 Z"/></svg>
+  </div>
+</section>
+
+<!-- ===== Section: Access ===== -->
+<section id="access">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">ACCESS</div>
+      <h2 class="title">アクセス</h2>
+    </div>
+
+    <div class="access-diagram">
+      <svg viewBox="0 0 734 574" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <marker id="arrow-pink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="var(--pink-deep)"/>
+          </marker>
+          <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="#A9C088"/>
+          </marker>
+        </defs>
+        <!-- from prefectures to Toyohashi -->
+        <line x1="427" y1="92" x2="382" y2="252" stroke="var(--pink-deep)" stroke-width="2" marker-end="url(#arrow-pink)"/>
+        <line x1="278" y1="162" x2="359" y2="254" stroke="var(--pink-deep)" stroke-width="2" marker-end="url(#arrow-pink)"/>
+        <line x1="170" y1="236" x2="333" y2="266" stroke="var(--pink-deep)" stroke-width="2" marker-end="url(#arrow-pink)"/>
+        <!-- from Toyohashi to areas -->
+        <line x1="345" y1="296" x2="186" y2="352" stroke="#A9C088" stroke-width="2" marker-end="url(#arrow-green)"/>
+        <line x1="361" y1="296" x2="306" y2="352" stroke="#A9C088" stroke-width="2" marker-end="url(#arrow-green)"/>
+        <line x1="376" y1="296" x2="424" y2="352" stroke="#A9C088" stroke-width="2" marker-end="url(#arrow-green)"/>
+        <line x1="388" y1="296" x2="547" y2="352" stroke="#A9C088" stroke-width="2" marker-end="url(#arrow-green)"/>
+      </svg>
+
+      <div class="access-group-outline" style="left:15.3%; top:61.8%; width:71.2%; height:19.7%;"></div>
+
+      <span class="access-pill from" style="left:59.3%; top:12.7%;">岐阜</span>
+      <span class="access-pill from" style="left:37.3%; top:24.6%;">名古屋</span>
+      <span class="access-pill from" style="left:19.8%; top:37.8%;">三重</span>
+      <span class="access-pill hub" style="left:49.9%; top:47.9%;">豊橋</span>
+
+      <span class="access-pill to" style="left:24.1%; top:70.0%;">田原</span>
+      <span class="access-pill to" style="left:41.1%; top:70.0%;">蒲郡</span>
+      <span class="access-pill to" style="left:58.2%; top:70.0%;">豊川</span>
+      <span class="access-pill to" style="left:75.2%; top:70.0%;">新城</span>
+
+      <span class="access-time" style="left:57.6%; top:26.1%;">約1時間30分</span>
+      <span class="access-time" style="left:43.7%; top:35.0%;">約1時間20分</span>
+      <span class="access-time" style="left:33.5%; top:43.0%;">約1時間30分</span>
+
+      <span class="access-time" style="left:24.1%; top:78.6%;">約40分</span>
+      <span class="access-time" style="left:41.1%; top:78.6%;">約30分</span>
+      <span class="access-time" style="left:58.2%; top:78.6%;">約15分</span>
+      <span class="access-time" style="left:75.2%; top:78.6%;">約40分</span>
+
+      <img src="images/access/car-icon.png" alt="" class="access-car" style="left:75.3%; top:43.6%;">
+      <p class="access-note">※所要時間はいずれも車移動の目安です。道路事情等により前後します。</p>   
+    </div>
+
+  </div>
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 140" preserveAspectRatio="none"><path fill="var(--green)" d="M0,60 C240,150 480,-10 720,55 C960,120 1200,0 1440,65 L1440,140 L0,140 Z"/></svg>
+  </div>
+</section>
+
+<!-- ===== Section5: CTA / Footer ===== -->
+<section id="cta">
+  <div class="wrap">
+    <h3>さあ、ゆる旅へ。</h3>
+    <p class="lead">少し足を延ばすだけで、こんな景色が待っている。</p>
+    <a href="#" target="_blank" rel="noopener" class="btn">東三河へ、ゆる旅に出かける</a>
+    <p class="external-note">※ほの国東三河観光ビューロー公式サイトに移動します（練習用のLPです）</p>
+
+    <div class="share-row">
+      <p><span class="share-tag">#東三河ゆる旅</span> 
+        <span>で、あなたのゆる旅をシェアしてください</span>
+      </p>
+      <div class="share-icons">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-links">
+        <a href="#about">東三河の特徴</a>
+        <a href="#spots">過ごし方</a>
+        <a href="#course">モデルコース</a>
+        <a href="#access">アクセス</a>
+        <a href="#">お問い合わせ</a>
+      </div>
+      <div class="copyright">© 魅力再発見！東三河編</div>
+    </div>
+  </footer>
+</section>
+
+
+
+ <!-- jQuery読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+     //ボタンをクリックした時
+      $('#menu-button').on('click',function(){
+        $('.gnav-sp-wrap').fadeToggle(500);
+      });
+  // メニュー内のリンクを押したとき：閉じる
+      $('.gnav-sp a').on('click', function () {
+        $('.gnav-sp-wrap').fadeOut(300);   // fadeToggle だと、二重に切り替わることがある
+      });
+
+    // spots：カルーセルのドット表示
+      document.querySelectorAll('.spot-grid').forEach(function (grid) {
+      var cards = grid.querySelectorAll('.spot-card');
+      if (cards.length < 2) return;
+
+    // ドットを作って、グリッドの直後に入れる
+      var dots = document.createElement('div');
+      dots.className = 'spot-dots';
+      cards.forEach(function (_, i) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.setAttribute('aria-label', (i + 1) + '枚目を見る');
+        b.addEventListener('click', function () {
+          grid.scrollTo({ left: cards[i].offsetLeft - cards[0].offsetLeft, behavior: 'smooth' });
+        });
+        dots.appendChild(b);
+      });
+      grid.after(dots);
+      var buttons = dots.querySelectorAll('button');
+
+    // スクロール位置から、今何枚目かを決める
+      function update() {
+        var step = cards[1].offsetLeft - cards[0].offsetLeft;   // 1枚分の移動量
+        var index = Math.round(grid.scrollLeft / step);
+        if (grid.scrollLeft >= grid.scrollWidth - grid.clientWidth - 2) {
+          index = cards.length - 1;                              // 右端まで来たら最後
+        }
+        buttons.forEach(function (b, i) { b.classList.toggle('is-active', i === index); });
+      }
+
+      var ticking = false;
+      grid.addEventListener('scroll', function () {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(function () { update(); ticking = false; });
+      });
+      window.addEventListener('resize', update);
+      update();
+    });
+      
+</script>
+
+</body>
+</html>

@@ -411,7 +411,7 @@
   .fv-title span { display: block; }
   .fv-caption {
     position: absolute; 
-    bottom:20%; left: 37%;
+    bottom: 24%; left: 37%;
     z-index: 3;
     text-align: center;
   }

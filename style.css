@@ -102,7 +102,7 @@
 /** -----------------------------------
     テキスト
 -------------------------------------**/
-  h2, h3, .mincho {
+  h2, h4, .mincho {
     font-family: "Shippori Mincho", serif; 
   }
 
@@ -647,7 +647,7 @@
       letter-spacing: 0.05em; 
       margin-bottom: 6px; 
     }
-    .spot-card h4 { 
+    .spot-card h3 { 
         font-size: 18px; 
         font-weight: 500; 
         margin-bottom: 6px; 
@@ -668,7 +668,7 @@
     .spot-card .area-tag{
       font-size: 13px;
     }
-    .spot-card h4{
+    .spot-card h3{
       font-size: 14px;
     }
     .spot-card p{
@@ -911,7 +911,7 @@
     text-align: center; 
     padding: 100px 0 0;
   }
-  #cta h3{ font-size: 60px; 
+  #cta h4{ font-size: 60px; 
     margin-bottom: 4px; 
     letter-spacing: 0.11em;
   }
@@ -949,7 +949,7 @@
 
 /*スマホサイズ*/
 @media screen and (max-width: 768px) {
-  #cta h3{
+  #cta h4{
     font-size: 48px;
   }
   #cta p.lead { 
@@ -960,7 +960,7 @@
   #cta{
     padding-top: 40px;
   }
-  #cta h3{
+  #cta h4{
     font-size: 30px;
   }
   #cta p.lead {
